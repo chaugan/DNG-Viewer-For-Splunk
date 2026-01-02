@@ -1,0 +1,51 @@
+<form class="splunk-formatter-section" section-label="Interactivity">
+    <splunk-control-group label="Zoom &amp; Pan" help="Enable mouse scroll zoom and drag to pan">
+        <splunk-radio-input name="display.visualizations.custom.viz_dag_viewer.dag_viewer.zoomEnabled" default="true">
+            <option value="true">On</option>
+            <option value="false">Off</option>
+        </splunk-radio-input>
+    </splunk-control-group>
+</form>
+
+<form class="splunk-formatter-section" section-label="Graph Layout">
+    <splunk-control-group label="Layout Direction" help="Direction of graph flow">
+        <splunk-select name="display.visualizations.custom.viz_dag_viewer.dag_viewer.rankdir" default="TB">
+            <option value="TB">Top to Bottom</option>
+            <option value="LR">Left to Right</option>
+            <option value="BT">Bottom to Top</option>
+            <option value="RL">Right to Left</option>
+        </splunk-select>
+    </splunk-control-group>
+    
+    <splunk-control-group label="Curved Edges" help="Use curved lines for edges">
+        <splunk-radio-input name="display.visualizations.custom.viz_dag_viewer.dag_viewer.splines" default="true">
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+        </splunk-radio-input>
+    </splunk-control-group>
+    
+    <splunk-control-group label="Prevent Overlap" help="Prevent nodes from overlapping">
+        <splunk-radio-input name="display.visualizations.custom.viz_dag_viewer.dag_viewer.overlap" default="false">
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+        </splunk-radio-input>
+    </splunk-control-group>
+    
+    <splunk-control-group label="Node Spacing" help="Horizontal spacing between nodes">
+        <splunk-text-input name="display.visualizations.custom.viz_dag_viewer.dag_viewer.nodesep" default="0.2" placeholder="0.2"/>
+    </splunk-control-group>
+    
+    <splunk-control-group label="Rank Spacing" help="Vertical spacing between ranks">
+        <splunk-text-input name="display.visualizations.custom.viz_dag_viewer.dag_viewer.ranksep" default="0.4" placeholder="0.4"/>
+    </splunk-control-group>
+</form>
+
+<form class="splunk-formatter-section" section-label="About">
+    <p>The DAG Viewer visualization renders Directed Acyclic Graphs from GraphViz DOT format.</p>
+    <p><strong>Data Format:</strong></p>
+    <ul>
+        <li><strong>Raw DOT mode:</strong> Return a field named "dot" containing the complete DOT graph string</li>
+        <li><strong>Structured mode:</strong> Return fields "source", "target", and optionally "label" to build edges automatically</li>
+    </ul>
+    <p><em>Note: Values in your DOT string take precedence over these options. These options are only applied if not specified in your DOT.</em></p>
+</form>
