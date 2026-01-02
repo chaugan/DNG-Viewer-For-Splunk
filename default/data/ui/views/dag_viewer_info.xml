@@ -32,7 +32,7 @@
                         <li>Interactive zoom and pan</li>
                         <li>Configurable layout direction (TB, LR, BT, RL)</li>
                         <li>Full node and edge styling support</li>
-                        <li>Works in both Classic and Dashboard Studio</li>
+                        <li>Works in Classic Dashboards (SimpleXML)</li>
                     </ul>
                     
                     <h2>Data Format Options</h2>

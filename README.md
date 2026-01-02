@@ -53,7 +53,7 @@ Based on [dag-viewer-forked](https://codesandbox.io/p/sandbox/dag-viewer-forked-
 - Interactive zoom and pan (can be disabled via formatter)
 - Configurable layout direction (Top-Bottom, Left-Right, Bottom-Top, Right-Left)
 - Full node and edge styling support in structured mode
-- Works in both Classic SimpleXML and Dashboard Studio
+- Works in Classic Dashboards (SimpleXML)
 - Reset View button to restore default zoom level
 
 ---
@@ -176,7 +176,6 @@ Use the visualization in Classic SimpleXML:
 
 - Splunk Enterprise 9.x, 10.x
 - Classic Dashboards (SimpleXML)
-- Dashboard Studio
 
 ---
 
