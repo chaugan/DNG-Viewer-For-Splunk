@@ -10,7 +10,7 @@ Based on [dag-viewer-forked](https://codesandbox.io/p/sandbox/dag-viewer-forked-
 
 ### Simple Workflow (Left to Right)
 
-![Simple Workflow](screenshots/simple_workflow.png)
+![Simple Workflow](screenshots/Example_1.png)
 
 **SPL to generate this screenshot:**
 ```spl
@@ -22,7 +22,7 @@ Based on [dag-viewer-forked](https://codesandbox.io/p/sandbox/dag-viewer-forked-
 
 ### Attack Tree Visualization
 
-![Attack Tree](screenshots/attack_tree.png)
+![Attack Tree](screenshots/Example_2.png)
 
 **SPL to generate this screenshot:**
 ```spl
@@ -34,7 +34,7 @@ Based on [dag-viewer-forked](https://codesandbox.io/p/sandbox/dag-viewer-forked-
 
 ### Structured Data Mode
 
-![Structured Mode](screenshots/structured_mode.png)
+![Structured Mode](screenshots/Example_3.png)
 
 **SPL to generate this screenshot:**
 ```spl
